@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HelloWorld from './components/helloworld'
+import Board from './components/board'
 
 function App() {
   return (
     <BrowserRouter>
         <Routes>
-          <Route path="/" element= { <HelloWorld /> } />
+          <Route path="/" element= { <Board /> } />
         </Routes>
     </BrowserRouter>
   )
