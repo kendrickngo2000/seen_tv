@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { ButtonGroup, Button } from "react-bootstrap";
-import Solver from "./solver";
+import Solver from "./solver.js";
 
 
 function Board(){
